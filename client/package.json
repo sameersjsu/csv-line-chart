@@ -1,0 +1,11 @@
+{
+  "name": "csv-to-line-chart",
+  "version": "0.1.0",
+  "description": "Provides a unique link for each dataset specified in CSV file.",
+  "author": "Surendra Kumar B",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-connect": "^0.2.0"
+  }
+}

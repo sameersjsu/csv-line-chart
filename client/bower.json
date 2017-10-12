@@ -1,0 +1,32 @@
+{
+  "name": "csv-to-line-chart",
+  "authors": [
+    "Surendra Kumar B"
+  ],
+  "description": "'Provides a unique link for each dataset specified in CSV file.'",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "csv",
+    "angular",
+    "express",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.6.4",
+    "datatables": "datatable#^1.10.15",
+    "Flot": "flot#^0.8.3"
+  }
+}

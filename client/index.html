@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="csvApp">
+    <head>
+
+    <!-- START : CSS (Custom & Third party) -->
+    <link href="plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- END : CSS (Custom & Third party) -->
+
+    <!-- START : Scripts (Custom & Third party) -->
+    <script type="text/javascript" src="plugins/angular/angular.min.js"></script>
+    <script type="text/javascript" src="plugins/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="plugins/Flot/jquery.flot.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/csv.js"></script>
+    <!-- END : Script (Custom & Third party) -->
+
+    </head>
+    <body>
+        <nav class="navbar navbar-default" ng-controller="AppController">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">CSV to Line chart</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li ng-class="{active: activeMenu === 'Upload'}">
+                            <a href="#csv" ng-click="setActiveMenu('Upload')">Upload</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div ng-view></div>
+    </body>
+</html>

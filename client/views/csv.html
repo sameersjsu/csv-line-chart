@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-md-offset-4 col-md-4">
+      <form>
+          <div class="form-group">
+             <input type="file" ng-model="csvFile" class="form-control" id="csvFile"
+               onchange="angular.element(this).scope().parseCsv(this)">
+          </div>
+          <p class="">Please select a csv file and watch out the feedback.</p>
+      </form>
+    </div>
+</div>
+<div class="row margin-tp-1">
+    <div class="col-md-offset-1 col-md-4">
+        <table id="seriesGrid" class="display" width="100%"></table>
+    </div>
+    <div class="col-md-offset-1 col-md-6">
+        <div id="seriesChart"></div>
+    </div>
+</div>

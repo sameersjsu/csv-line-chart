@@ -1,0 +1,27 @@
+{
+  "name": "csv-to-line-chart",
+  "version": "0.1.0",
+  "description": "Provides a unique link for each dataset specified in CSV file.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "csv",
+    "angular"
+  ],
+  "author": "Surendra Kumar B",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.4.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "eslint": "^3.19.0",
+    "express": "^4.15.3",
+    "mariasql": "0.2.5",
+    "uuid": "^3.0.1"
+  }
+}
